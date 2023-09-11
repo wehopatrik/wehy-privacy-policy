@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Prompt:wght@500&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Prompt', sans-serif;
+	background: rgb(215,243,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(215,241,251,1) 100%);
+	background-attachment: fixed;
+	margin: 0 0;
+}
+
+.div-main {
+	display: block;
+	border-radius: 30px;
+	background: #ffffff;
+	box-shadow: 0px 10px 20px #A8BAC2;
+    padding: 20px;
+	animation: fadeInDiv 0.8s;
+	margin:  50px auto;
+	margin-top: 100px;
+	width: 40%;
+	transition: all 1500ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.div-main:hover {
+	box-shadow: 0px 12px 100px #7C98A4;
+	-webkit-transform: scale(1.04);
+	transition: all 1500ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.info {
+	text-align: justify;
+}
+
+h1, .update-date {
+	text-align: center;
+}
